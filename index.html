@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="deliverables.html">Deliverables</a></li>
+      <li><a href="team.html">Team</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero full-screen" id="home">
+    <div class="hero-content">
+      <h1>DormConnect</h1>
+      <p>A brief tagline describing your concept</p>
+      <a href="features.html" class="button">Explore Features</a>
+    </div>
+    <div class="scroll-indicator" onclick="scrollToSection('video')">▼</div>
+  </section>
+
+  <!-- Scroll-triggered Video Section -->
+  <section class="video-section" id="video">
+    <h2>Concept Demo Video</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/placeholder" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© DormConnect</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
