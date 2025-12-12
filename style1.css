@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .button:hover {
-  background: #89b0f0;
+  background: var(--primary);
 }
 
 .scroll-indicator {
