@@ -195,13 +195,6 @@ nav a:hover {
   display: none;
 }
 
-.deliverables-container {
-  display: flex;
-  flex-wrap: wrap;         
-  justify-content: center; 
-  gap: 1.5em;              
-}
-
 .prototype-card {
   cursor: default;
 }
