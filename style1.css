@@ -177,7 +177,7 @@ nav a:hover {
 }
 
 .feature-card p {
-  color: #444;
+  color: var(--accent);
   font-size: 0.95em;
 }
 
