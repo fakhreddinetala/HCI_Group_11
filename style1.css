@@ -195,6 +195,13 @@ nav a:hover {
   display: none;
 }
 
+.deliverables-container {
+  display: grid;
+  grid-template-columns: repeat(3, 220px); 
+  justify-content: center;                 
+  gap: 1.5em 1em;                           
+}
+
 .prototype-card {
   cursor: default;
 }
@@ -247,7 +254,7 @@ nav a:hover {
 .right2 { grid-area: right2; }
 
 .member {
-  width: 200px; /* ensures all boxes are the same size */
+  width: 200px; 
   background: white;
   padding: 1em;
   border-radius: 8px;
@@ -299,7 +306,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 2em 1em;
-  margin-top: 0; /* remove any top spacing */
+  margin-top: 0; 
 }
 
 
