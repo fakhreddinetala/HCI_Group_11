@@ -106,7 +106,7 @@ nav a:hover {
 /* Video Section */
 .video-section {
   padding: 4em 2em;
-  background: var(--primary);
+  background: var(--accent);
   color: var(--text);
   text-align: center;
   transition: opacity 1s ease, transform 1s ease;
@@ -141,7 +141,7 @@ nav a:hover {
 
 .features-headline {
   font-size: 2.5em;
-  color: var(--primary);
+  color: var(--accent);
   margin-bottom: 0.5em;
 }
 
